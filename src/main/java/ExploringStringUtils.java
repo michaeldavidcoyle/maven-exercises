@@ -15,9 +15,14 @@ public class ExploringStringUtils {
 //            System.out.println("Sorry, that is not a number.");
 //        }
 
-        System.out.print("Enter full name: ");
-        String userName = input.nextLine();
+//        System.out.print("Enter full name: ");
+//        String userName = input.nextLine();
+//
+//        System.out.println(StringUtils.swapCase(userName));
 
-        System.out.println(StringUtils.swapCase(userName));
+        System.out.print("Enter something: ");
+        String userInput = input.nextLine();
+
+        System.out.println(StringUtils.reverse(userInput));
     }
 }
